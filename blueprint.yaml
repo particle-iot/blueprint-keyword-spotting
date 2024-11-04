@@ -6,7 +6,7 @@ name: "Keyword spotting"
 shortDescription: Tutorial for detecting keywords spoken into a microphone
 version: 1.0.0
 models: []
-language: "Particle Wiring"
+language: [ "Particle Wiring" ]
 cloudServices: []
 integrations: [ "edge-impulse" ]
 hardwareDependencies:
