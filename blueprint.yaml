@@ -12,6 +12,7 @@ integrations: [ "edge-impulse" ]
 hardwareDependencies:
   - name: Photon 2, Boron, M-SoM
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+tags: [ "P2", "Photon 2", "Boron" ]
 description: |
   The keyword spotting tutorial detects keywords spoken into a microphone, using Edge Impulse's machine learning capabilities. 
   
