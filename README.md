@@ -4,7 +4,7 @@
 
 1. In Workbench, select **Particle: Import Project** and select the `project.properties` file 
 
-1. Use **Particle: Configure Project for Device** and select **deviceOS@5.3.2** and choose a target. (e.g. **P2** , this option is also used for the Photon 2).
+1. Use **Particle: Configure Project for Device** and select the platform such as **P2** and the latest 5.x or 6.x release.
 
 1. Compile with  **Particle: Compile application (local)**
 
@@ -18,7 +18,7 @@
 
 ## Overview
 
-The Keyword Spotting tutorial ia reference project to identify the keywords "Yes" and "No" in audio data received from a PDM microphone.
+The Keyword Spotting tutorial is reference project to identify the keywords "Yes" and "No" in audio data received from a PDM microphone.
 
 This solution is designed for Particle devices like the Photon 2, Boron, and M-SoM.
 
@@ -92,7 +92,7 @@ very efficient and does not block the execution of your code while sampling audi
 
 ### 1. Collect Training Data 
 
-1. **Log into Edge Impulse** and create a new project for faucet detection.
+1. **Log into Edge Impulse** and create a new project for keyword detection.
 2. Go to the **Data Acquisition** tab and collect sample data for the words you wish to detect. If you are generating your own audio sample data,
 you can generate samples using your phone, which is often easier than getting the raw samples off your Particle device.
 
