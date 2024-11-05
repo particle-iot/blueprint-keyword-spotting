@@ -7,18 +7,18 @@ shortDescription: Tutorial for detecting keywords spoken into a microphone
 version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
-cloudServices: []
+cloudServices: [ "Integrations", "Logic", "Ledger", "Lake" ]
 integrations: [ "edge-impulse" ]
 hardwareDependencies:
   - name: Photon 2, Boron, M-SoM
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
 tags: [ "P2", "Photon 2", "Boron" ]
 description: |
-  The keyword spotting tutorial detects keywords spoken into a microphone, using Edge Impulse's machine learning capabilities. 
-  
-  This app is designed to be deployed on Particle devices, such as the Photon 2, Boron, and M-SoM, and uses sensors to monitor and classify water flow patterns. It is pre-programmed to detect "Yes" and "No" but you can train the model using Edge Impulse for any keywords.
+  The keyword spotting tutorial detects keywords spoken into a microphone, using Edge Impulse's machine learning capabilities.
+
+  This solution is designed to be deployed on Particle devices, such as the Photon 2, Boron, and M-SoM, and works with sensors to monitor and classify audio patterns in real-time. The default model detects "Yes" and "No," but you can train it for any desired keywords using Edge Impulse.
 
   Key Features:
-  - Utilizes Edge Impulse's machine learning platform to train a model for identifying spoken keywords
-  - Compatible with Particle devices, allowing seamless deployment and edge processing.
-  
+  - Utilizes Edge Impulse’s machine learning platform to develop a responsive, customizable keyword-spotting model
+  - Supports seamless deployment on Particle hardware, enabling real-time edge processing
+  - Designed for new users and developers to quickly test, adapt, and expand their IoT solutions
