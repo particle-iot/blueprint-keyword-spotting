@@ -7,7 +7,7 @@ shortDescription: Tutorial for detecting keywords spoken into a microphone
 version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
-cloudServices: [ "Integrations", "Logic", "Ledger", "Lake" ]
+cloudServices: [ "Integrations", "Logic", "Ledger" ]
 integrations: [ "edge-impulse" ]
 hardwareDependencies:
   - name: Photon 2, Boron, M-SoM
