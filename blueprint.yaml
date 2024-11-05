@@ -2,7 +2,7 @@ id: edge-impulse/keyword-spotting
 category: solution
 icon: edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-keyword-spotting
-name: "Keyword spotting"
+name: "Keyword Spotting"
 shortDescription: Tutorial for detecting keywords spoken into a microphone
 version: 1.0.0
 models: []
