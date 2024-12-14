@@ -1,18 +1,34 @@
 id: edge-impulse/keyword-spotting
-category: solution
-icon: edgeimpulse.png
+slug: edge-impulse-keyword-spotting
+type: solution
+category: "AI and machine learning"
+expertiseLevel: ""
+tags: ["AI", "ML"]
+icon: assets/edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-keyword-spotting
 name: "Keyword spotting"
 shortDescription: Tutorial for detecting keywords spoken into a microphone
 version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
-cloudServices: [ "Integrations", "Logic", "Ledger" ]
-integrations: [ "edge-impulse" ]
+cloudServices:
+  - name: Integrations
+  - name: Logic
+  - name: Ledger
+integrations: 
+  - name: edge-impulse
+    icon: assets/edgeimpulse.png
+supportedDevices:
+  - name: "P2"
+  - name: "Photon 2"
+  - name: "Boron"
 hardwareDependencies:
-  - name: Photon 2, Boron, M-SoM
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-tags: [ "P2", "Photon 2", "Boron" ]
+  - name: Supported device
+introduction: |
+  The Keyword Spotting tutorial is reference project to identify the keywords "Yes" and "No" in audio data received from a PDM microphone.
+
+  This solution is designed for Particle devices like the Photon 2, Boron, and M-SoM.
+  
 description: |
   The keyword spotting tutorial detects keywords spoken into a microphone, using Edge Impulse's machine learning capabilities.
 
@@ -22,3 +38,6 @@ description: |
   - Utilizes Edge Impulse’s machine learning platform to develop a responsive, customizable keyword-spotting model
   - Supports seamless deployment on Particle hardware, enabling real-time edge processing
   - Designed for new users and developers to quickly test, adapt, and expand their IoT solutions
+
+
+additionalResources:
