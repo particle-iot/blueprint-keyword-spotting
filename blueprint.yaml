@@ -1,9 +1,8 @@
-id: edge-impulse/keyword-spotting
 slug: edge-impulse-keyword-spotting
 type: solution
 category: "AI and machine learning"
-expertiseLevel: ""
-tags: ["AI", "ML"]
+expertiseLevel: "intermediate"
+tags: ["audio", "assistant", "AI", "ML"]
 icon: assets/edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-keyword-spotting
 name: "Keyword spotting"
