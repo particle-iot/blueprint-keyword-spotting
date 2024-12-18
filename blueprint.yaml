@@ -1,9 +1,9 @@
 slug: edge-impulse-keyword-spotting
-type: solution
+type: Solution
 category: "AI and machine learning"
-expertiseLevel: "intermediate"
-tags: ["audio", "assistant", "AI", "ML"]
-icon: assets/edgeimpulse.png
+expertiseLevel: "Intermediate"
+tags: ["Audio", "Assistant", "AI", "ML"]
+icon: assets/keyword-spotting.svg
 gitrepo: https://github.com/particle-iot/blueprint-keyword-spotting
 name: "Keyword spotting"
 shortDescription: Tutorial for detecting keywords spoken into a microphone
@@ -16,7 +16,7 @@ cloudServices:
   - name: Ledger
 integrations: 
   - name: edge-impulse
-    icon: assets/edgeimpulse.png
+    icon: assets/edge-impulse.svg
 supportedDevices:
   - name: "P2"
   - name: "Photon 2"
