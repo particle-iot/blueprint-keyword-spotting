@@ -15,7 +15,7 @@ cloudServices:
   - name: Logic
   - name: Ledger
 integrations: 
-  - name: edge-impulse
+  - name: Edge Impulse
     icon: assets/edge-impulse.svg
 supportedDevices:
   - name: "P2"
