@@ -23,6 +23,7 @@ supportedDevices:
   - name: "Boron"
 hardwareDependencies:
   - name: Supported device
+  - name: PDM microphone
 introduction: |
   The Keyword Spotting tutorial is reference project to identify the keywords "Yes" and "No" in audio data received from a PDM microphone.
 
